@@ -5,7 +5,7 @@ import NewsArticle from './NewsArticle';
 
 const NewsList = () => {
   const [articles, setArticles] = useState([]);
-  const [selectedCategory, setSelectedCategory] = useState('general'); // Default category
+  const [selectedCategory, setSelectedCategory] = useState('general');
 
   useEffect(() => {
     const fetchData = async () => {
