@@ -10,7 +10,7 @@ const NewsArticle = ({ article }) => {
 
   return (
     <div className="max-w-md mx-auto bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition duration-300 transform hover:-translate-y-2">
-      <img src={article.urlToImage} alt={article.title} className="w-40 h-40 object-cover" />
+      <img src={article.urlToImage} alt={article.title} className="w-full h-40 object-cover" />
       <div className="px-6 py-4">
         <h2 className="font-bold text-xl mb-2">{article.title}</h2>
         <p className="text-gray-600">
